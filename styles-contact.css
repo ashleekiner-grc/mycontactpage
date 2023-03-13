@@ -1,0 +1,160 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/canyon-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  text-align: center;
+}
+
+.center {
+  width: 40%;/* -- for responsiveness --*/
+  min-width: 300px;/* -- for responsiveness --*/
+	padding: 2%;
+  margin: 100px auto;
+ 	background: rgba(199, 239, 235, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px solid white; 
+  /* --changed center div border to solid white --*/
+}
+
+   
+#logo {
+  width: 70%;/* -- for responsiveness --*/
+  margin-bottom: 15px;/* -- space between logo and h1 --*/
+  margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+font-family: "degular", sans-serif;
+font-weight: 700;
+font-style: normal;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #5c4cb7;
+}
+
+h2 {
+  font-family: "finalsix", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 1.3em;
+    line-height: 1.4;
+    color: #5c4cb7;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+
+/* -- nav css code below is copied from Josh Johnson on https://codepen.io/secondfret/pen/AvGZRn --*/
+
+* {margin: 0; padding: 0;}
+
+nav { 
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;/* -- for responsiveness --*/
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 5px;
+  border-right: 1px solid #679689;
+  padding: 10px;
+  font-size: 1.7em;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #679689; /* -- color normal --*/
+  font-family: "bilo", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: lowercase;
+  -webkit-transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: #36534b; /* --color when hovered over--*/
+}
+
+li.active a {
+  font-weight: bold;
+  color: #36534b; /* --color when hovered over--*/
+}
+ /* -- END OF NAV STYLING --*/ 
+
